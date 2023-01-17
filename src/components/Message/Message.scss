@@ -1,0 +1,43 @@
+.message {
+    display: flex;
+    align-items: center;
+
+    .sentMessage {
+        flex-direction: row-reverse;
+      }
+    
+      .name {
+        position: absolute; 
+        color: #4B5563; 
+        margin-top: -4rem;
+      }
+      
+}
+
+.sentMessage {
+    flex-direction: row-reverse;
+}
+  
+  
+
+.sentMessage p {
+    color: white;
+    background: #0b93f6;
+    align-self: flex-end;
+}
+
+.receivedMessage p {
+    background: #e5e5ea;
+    color: black;
+}
+
+p {
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.formClass {
+    height: 8vh;
+    position: fixed;
+    bottom: 0;
+    background-color: #2F2F2F;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin: 20px;
+    
+    
+    .inputClass {
+        line-height: 1.5;
+        width: 100%;
+        font-size: 1.25rem;
+        background-color: #2F2F2F;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        padding: 0 10px;
+    }
+
+    .buttonClass {
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        border-radius: 25px;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #2F2F2F;
+        cursor: pointer;
+        font-size: 1.25rem;
+        left: 20px;
+    }
+}
